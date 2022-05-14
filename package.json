@@ -1,0 +1,29 @@
+{
+  "name": "codec-experimental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ipld/dag-cbor": "^7.0.1",
+    "@ipld/dag-json": "^8.0.9",
+    "@ipld/dag-ucan": "^1.4.1-beta",
+    "@noble/ed25519": "^1.6.0",
+    "chai": "^4.3.6",
+    "ipfs-http-client": "^56.0.3",
+    "lodash": "^4.17.21",
+    "multiformats": "^9.6.5",
+    "node-fetch": "^3.2.4",
+    "ucans": "^0.9.1",
+    "uint8arrays": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
